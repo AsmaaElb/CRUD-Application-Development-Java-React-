@@ -1,103 +1,120 @@
-Task: CRUD Application Development (Java + React)
-Task Management Application
+CRUD-Application-Development-Java-React-
+```markdown
+# Task Management Application
 
-📁 Project Structure
-bash
-Copier
-Modifier
+Full-stack CRUD application built with **Spring Boot** (backend) and **React.js** (frontend).
+
+---
+
+## Project Structure
+
+```
+
 Crud-task-management/
-├── backend/    # Spring Boot API
-├── frontend/   # React UI
-└── README.md   # Project documentation
-✅ Features
-Task creation, update, deletion, listing
+│
+├── backend/         # Spring Boot backend API
+├── frontend/        # React frontend application
+└── README.md        # Project documentation
 
-RESTful API built with Spring Boot
+````
 
-PostgreSQL database support
+---
 
-Responsive React UI with functional components and hooks
+## Features
 
-Unit testing:
+- Create, update, delete, and list tasks
+- RESTful API with Spring Boot
+- PostgreSQL database integration
+- Responsive React UI with functional components and hooks
+- Unit tests with JUnit (backend) and Jest (frontend)
 
-Backend: JUnit
+---
 
-Frontend: Jest
+## Setup Instructions
 
-⚙️ Setup Instructions
-1. Clone the Repository
-bash
-Copier
-Modifier
+### 1. Clone the repository
+```bash
 git clone https://github.com/your-username/Crud-task-management.git
 cd Crud-task-management
-2. Backend Setup (Spring Boot)
-Prerequisites
-Java 17+
+````
 
-Maven
+### 2. Backend Setup (Spring Boot)
 
-PostgreSQL
+#### Prerequisites
 
-Configure the Database
-Create this file:
+* Java 17 or higher
+* Maven
+* PostgreSQL
 
-css
-Copier
-Modifier
-backend/src/main/resources/application.properties
-Paste:
+#### Configure the Database
 
-properties
-Copier
-Modifier
+Create `backend/src/main/resources/application.properties` with:
+
+```properties
 spring.datasource.url=jdbc:postgresql://localhost:5432/taskdb
 spring.datasource.username=your_username
 spring.datasource.password=your_password
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
 spring.sql.init.mode=always
-Replace your_username and your_password with your own PostgreSQL credentials.
+```
 
-Run the Backend
-bash
-Copier
-Modifier
+Replace `your_username` and `your_password` with your local PostgreSQL credentials.
+
+#### Run the backend server
+
+```bash
 cd backend
 ./mvnw spring-boot:run
-3. Frontend Setup (React)
-Prerequisites
-Node.js >= 18
+```
 
-npm
+### 3. Frontend Setup (React)
 
-Install Dependencies
-bash
-Copier
-Modifier
+#### Prerequisites
+
+* Node.js version 18 or above
+* npm
+
+#### Install dependencies
+
+```bash
 cd frontend
 npm install
-Run Frontend
-bash
-Copier
-Modifier
-npm start
-The app will be accessible at http://localhost:3000
+```
 
-🧪 Running Tests
-Backend
-bash
-Copier
-Modifier
+#### Run the frontend
+
+```bash
+npm start
+```
+
+The app will be accessible at [http://localhost:3000](http://localhost:3000)
+
+---
+
+## Running Tests
+
+### Backend tests
+
+```bash
 cd backend
 ./mvnw test
-Frontend
-bash
-Copier
-Modifier
+```
+
+### Frontend tests
+
+```bash
 cd frontend
 npm test
-👤 Author
-Asmaa Elbouazzaoui
-GitHub: AsmaaElb
-Email: asmaaelbouazzaoui8@gmail.com
+```
+
+---
+
+## Author
+
+**Asmaa Elbouazzaoui**
+
+
+
+
+

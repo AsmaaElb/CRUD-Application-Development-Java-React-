@@ -6,7 +6,7 @@ Full-stack CRUD application built with Spring Boot (backend) and React.js (front
 
 ---
 
-## Project Structure
+# Project Structure
 
 Crud-task-management/
 │
@@ -16,11 +16,7 @@ Crud-task-management/
 ```
 
 
-````
-
----
-
-## Features
+# Features
 
 - Create, update, delete, and list tasks
 - RESTful API with Spring Boot
@@ -30,23 +26,23 @@ Crud-task-management/
 
 ---
 
-## Setup Instructions
+# Setup Instructions
 
-### 1. Clone the repository
-```bash
+ 1. Clone the repository
+```
 git clone https://github.com/your-username/Crud-task-management.git
 cd Crud-task-management
 ````
 
-### 2. Backend Setup (Spring Boot)
+# 2. Backend Setup (Spring Boot)
 
-#### Prerequisites
+ Prerequisites
 
 * Java 17 or higher
 * Maven
 * PostgreSQL
 
-#### Configure the Database
+Configure the Database
 
 Create `backend/src/main/resources/application.properties` with:
 
@@ -68,21 +64,21 @@ cd backend
 ./mvnw spring-boot:run
 ```
 
-### 3. Frontend Setup (React)
+# 3. Frontend Setup (React)
 
-#### Prerequisites
+# Prerequisites
 
 * Node.js version 18 or above
 * npm
 
-#### Install dependencies
+# Install dependencies
 
 ```bash
 cd frontend
 npm install
 ```
 
-#### Run the frontend
+# Run the frontend
 
 ```bash
 npm start
@@ -113,7 +109,7 @@ npm test
 ## Author
 
 **Asmaa Elbouazzaoui**
-
+asmaaelbouazzaoui8@gmail.com
 
 
 

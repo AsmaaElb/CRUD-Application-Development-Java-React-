@@ -1,0 +1,26 @@
+# Backend build files
+backend/target/
+backend/.mvn/
+backend/mvnw
+backend/mvnw.cmd
+
+# Backend IDE files
+backend/*.iml
+backend/.idea/
+
+# Backend config files à ignorer (avec infos sensibles)
+backend/src/main/resources/application.properties
+
+# Frontend node modules
+frontend/node_modules/
+
+# Frontend build output
+frontend/build/
+
+# Frontend IDE files
+frontend/*.iml
+frontend/.idea/
+
+# System files
+.DS_Store
+Thumbs.db

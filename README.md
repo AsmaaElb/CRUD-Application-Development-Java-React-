@@ -2,19 +2,19 @@ CRUD-Application-Development-Java-React-
 ```markdown
 # Task Management Application
 
-Full-stack CRUD application built with **Spring Boot** (backend) and **React.js** (frontend).
+Full-stack CRUD application built with Spring Boot (backend) and React.js (frontend).
 
 ---
 
 ## Project Structure
-
-```
 
 Crud-task-management/
 │
 ├── backend/         # Spring Boot backend API
 ├── frontend/        # React frontend application
 └── README.md        # Project documentation
+```
+
 
 ````
 

@@ -116,6 +116,7 @@ npm test
 ## Author
 
 **Asmaa Elbouazzaoui**
+---
 **asmaaelbouazzaoui8@gmail.com**
 
 
